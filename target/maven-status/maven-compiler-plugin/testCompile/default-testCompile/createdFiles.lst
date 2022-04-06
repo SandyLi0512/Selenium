@@ -1,0 +1,10 @@
+com/epam/bdd/utaf/web/steps/github/SignInSteps.class
+com/epam/bdd/utaf/web/steps/github/VerifyDeletedRepoSteps.class
+com/epam/bdd/utaf/web/pages/github/NewRepositoryPage.class
+com/epam/bdd/utaf/web/pages/github/TopBarPage.class
+com/epam/bdd/utaf/web/pages/github/LoginPage.class
+com/epam/bdd/utaf/web/runners/WebTestRunner.class
+com/epam/bdd/utaf/web/pages/github/RepositorysPage.class
+com/epam/bdd/utaf/web/steps/github/Repository.class
+com/epam/bdd/utaf/web/steps/WebHooks.class
+com/epam/bdd/utaf/web/steps/github/NewRepoSteps.class

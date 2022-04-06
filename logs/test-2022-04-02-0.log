@@ -1,0 +1,11 @@
+2022-04-02 16:37:17.394 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-02 16:37:18.366 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-02 16:37:18.376 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-02 16:37:20.087 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+2022-04-02 16:37:20.109 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+2022-04-02 16:37:20.111 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-02 16:37:22.181 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-02 16:37:22.331 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-02 16:37:24.182 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-02 16:37:24.187 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-02 16:37:24.187 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome

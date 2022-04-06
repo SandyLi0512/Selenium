@@ -1,0 +1,13 @@
+2022-03-26 04:46:19.561 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$575/0x0000000801086030@3b8c15de (tried for 30 second(s) with 500 milliseconds interval)
+2022-03-26 04:46:19.669 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1de45dba57eaf4eaff98aab235b56d24
+*** Element info: {Using=link text, value=Sign in}
+2022-03-26 04:46:19.701 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 36 ] - * End scenario: Login github website
+2022-03-26 04:46:19.853 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 30 ] - * Start running scenario: Create new repo
+2022-03-26 04:46:19.990 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 39 ] - Click new repository button

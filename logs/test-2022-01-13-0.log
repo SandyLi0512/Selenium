@@ -1,0 +1,431 @@
+2022-01-13 11:12:27.127 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:12:30.143 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 11:12:30.144 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 50 ] - Please define platform in maven command
+2022-01-13 11:12:30.937 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:12:30.938 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver WEB
+2022-01-13 11:16:52.907 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:16:53.815 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 11:16:53.816 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 50 ] - Please define platform in maven command
+2022-01-13 11:16:54.351 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:16:54.352 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver WEB
+2022-01-13 11:19:10.463 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:19:21.145 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 11:19:21.145 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 50 ] - Please define platform in maven command
+2022-01-13 11:19:21.604 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:19:21.605 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver WEB
+2022-01-13 11:19:23.793 [ rp-io-1 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+java.lang.IllegalStateException: Executor pool shut down
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint.executeInternal(HttpClientRestEndpoint.java:491)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint.executeRequest(HttpClientRestEndpoint.java:411)
+	at com.epam.reportportal.restendpoint.http.proxy.RestEndpointInvocationHandler.executeRestMethod(RestEndpointInvocationHandler.java:59)
+	at com.epam.reportportal.restendpoint.http.proxy.RestEndpointInvocationHandler.invoke(RestEndpointInvocationHandler.java:43)
+	at com.sun.proxy.$Proxy9.startTestItem(Unknown Source)
+	at com.epam.reportportal.service.LaunchImpl.lambda$null$10(LaunchImpl.java:283)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onSuccess(MaybeFlatten.java:88)
+	at io.reactivex.internal.operators.maybe.MaybeCache.subscribeActual(MaybeCache.java:66)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten.subscribeActual(MaybeFlatten.java:42)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onSuccess(MaybeFlatten.java:96)
+	at io.reactivex.internal.operators.maybe.MaybeCache.onSuccess(MaybeCache.java:92)
+	at io.reactivex.internal.operators.maybe.MaybeCreate$Emitter.onSuccess(MaybeCreate.java:73)
+	at com.epam.reportportal.service.LaunchImpl.lambda$null$4(LaunchImpl.java:132)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onSuccess(MaybeCallbackObserver.java:71)
+	at io.reactivex.internal.operators.maybe.MaybeCache.onSuccess(MaybeCache.java:92)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeOnMaybeObserver.onSuccess(MaybeSubscribeOn.java:91)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onSuccess(MaybePeek.java:122)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onSuccess(MaybePeek.java:122)
+	at io.reactivex.internal.operators.flowable.FlowableSingleMaybe$SingleElementSubscriber.onComplete(FlowableSingleMaybe.java:104)
+	at io.reactivex.internal.operators.flowable.FlowableRetryPredicate$RetrySubscriber.onComplete(FlowableRetryPredicate.java:104)
+	at io.reactivex.internal.subscriptions.DeferredScalarSubscription.complete(DeferredScalarSubscription.java:134)
+	at io.reactivex.internal.operators.maybe.MaybeToFlowable$MaybeToFlowableSubscriber.onSuccess(MaybeToFlowable.java:70)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver$InnerObserver.onSuccess(MaybeFlatten.java:119)
+	at io.reactivex.internal.operators.maybe.MaybeJust.subscribeActual(MaybeJust.java:36)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onSuccess(MaybeFlatten.java:96)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeOnMaybeObserver.onSuccess(MaybeSubscribeOn.java:91)
+	at io.reactivex.internal.operators.maybe.MaybeCreate$Emitter.onSuccess(MaybeCreate.java:73)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:536)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-01-13 11:19:23.812 [ rp-io-1 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [22] ReportPortal Finish test item execution error
+java.lang.IllegalStateException: Executor pool shut down
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint.executeInternal(HttpClientRestEndpoint.java:491)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint.executeRequest(HttpClientRestEndpoint.java:411)
+	at com.epam.reportportal.restendpoint.http.proxy.RestEndpointInvocationHandler.executeRestMethod(RestEndpointInvocationHandler.java:59)
+	at com.epam.reportportal.restendpoint.http.proxy.RestEndpointInvocationHandler.invoke(RestEndpointInvocationHandler.java:43)
+	at com.sun.proxy.$Proxy9.startTestItem(Unknown Source)
+	at com.epam.reportportal.service.LaunchImpl.lambda$null$10(LaunchImpl.java:283)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onSuccess(MaybeFlatten.java:88)
+	at io.reactivex.internal.operators.maybe.MaybeCache.subscribeActual(MaybeCache.java:66)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten.subscribeActual(MaybeFlatten.java:42)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onSuccess(MaybeFlatten.java:96)
+	at io.reactivex.internal.operators.maybe.MaybeCache.onSuccess(MaybeCache.java:92)
+	at io.reactivex.internal.operators.maybe.MaybeCreate$Emitter.onSuccess(MaybeCreate.java:73)
+	at com.epam.reportportal.service.LaunchImpl.lambda$null$4(LaunchImpl.java:132)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onSuccess(MaybeCallbackObserver.java:71)
+	at io.reactivex.internal.operators.maybe.MaybeCache.onSuccess(MaybeCache.java:92)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeOnMaybeObserver.onSuccess(MaybeSubscribeOn.java:91)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onSuccess(MaybePeek.java:122)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onSuccess(MaybePeek.java:122)
+	at io.reactivex.internal.operators.flowable.FlowableSingleMaybe$SingleElementSubscriber.onComplete(FlowableSingleMaybe.java:104)
+	at io.reactivex.internal.operators.flowable.FlowableRetryPredicate$RetrySubscriber.onComplete(FlowableRetryPredicate.java:104)
+	at io.reactivex.internal.subscriptions.DeferredScalarSubscription.complete(DeferredScalarSubscription.java:134)
+	at io.reactivex.internal.operators.maybe.MaybeToFlowable$MaybeToFlowableSubscriber.onSuccess(MaybeToFlowable.java:70)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver$InnerObserver.onSuccess(MaybeFlatten.java:119)
+	at io.reactivex.internal.operators.maybe.MaybeJust.subscribeActual(MaybeJust.java:36)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onSuccess(MaybeFlatten.java:96)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeOnMaybeObserver.onSuccess(MaybeSubscribeOn.java:91)
+	at io.reactivex.internal.operators.maybe.MaybeCreate$Emitter.onSuccess(MaybeCreate.java:73)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:536)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-01-13 11:21:05.178 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:21:05.832 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 11:21:05.832 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 50 ] - Please define platform in maven command
+2022-01-13 11:21:06.203 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:21:06.204 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver WEB
+2022-01-13 11:26:07.995 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:26:08.675 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 11:26:08.676 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 50 ] - Please define platform in maven command
+2022-01-13 11:26:09.112 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:26:09.113 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver WEB
+2022-01-13 11:31:36.486 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:31:37.187 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 11:31:37.194 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 39 ] - Test platform is: CHROME
+2022-01-13 11:31:39.254 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 11:31:39.309 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-01-13 11:31:40.778 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://chromedriver.storage.googleapis.com/97.0.4692.71/chromedriver_mac64.zip
+2022-01-13 11:31:43.732 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 178 ] - Extracting driver from compressed file chromedriver_mac64.zip
+2022-01-13 11:31:43.923 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 11:31:43.925 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 11:31:49.736 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 55 ] - the current platform is CHROME
+2022-01-13 11:31:50.009 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver CHROME
+2022-01-13 11:31:56.417 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 102 ] - the driver quit
+2022-01-13 11:31:56.422 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:31:56.423 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver CHROME
+2022-01-13 11:35:49.583 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:35:50.340 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 11:35:50.348 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 39 ] - Test platform is: CHROME
+2022-01-13 11:35:50.546 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 11:35:50.572 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 11:35:50.574 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 11:35:53.504 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 55 ] - the current platform is CHROME
+2022-01-13 11:35:53.698 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver CHROME
+2022-01-13 11:36:00.134 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 102 ] - the driver quit
+2022-01-13 11:36:00.140 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:36:00.140 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver CHROME
+2022-01-13 11:36:44.069 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 11:36:44.741 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 11:36:44.748 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 39 ] - Test platform is: CHROME
+2022-01-13 11:36:44.908 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 11:36:44.932 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 11:36:44.935 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 43 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 11:36:47.604 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 55 ] - the current platform is CHROME
+2022-01-13 11:36:47.766 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver CHROME
+2022-01-13 11:36:54.293 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 102 ] - the driver quit
+2022-01-13 11:36:54.297 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 96 ] - the appium service was stopped
+2022-01-13 11:36:54.297 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver CHROME
+2022-01-13 12:55:09.939 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 12:55:16.235 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 12:55:16.236 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver null
+2022-01-13 12:57:09.376 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 12:57:10.520 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 12:57:10.521 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver null
+2022-01-13 12:58:22.488 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 12:58:28.941 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 12:58:28.941 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver web
+2022-01-13 12:59:04.811 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 12:59:05.913 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 12:59:05.913 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver null
+2022-01-13 13:00:11.479 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:00:12.631 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:00:12.632 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver null
+2022-01-13 13:01:04.504 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:01:10.852 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:01:10.853 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver web
+2022-01-13 13:02:02.916 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:02:09.277 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:02:09.278 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver web
+2022-01-13 13:08:57.636 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:08:58.436 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:08:58.437 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.runners.WebTestRunner : 49 ] - Tear down driver null
+2022-01-13 13:09:55.497 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:09:56.207 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 13:09:56.207 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 51 ] - Please define platform in maven command
+2022-01-13 13:09:56.254 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:09:56.255 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.runners.WebTestRunner : 51 ] - Tear down driver web
+2022-01-13 13:13:11.674 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:13:40.561 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for WEB on LOCAL environment...
+2022-01-13 13:13:40.563 [ main ] - [ ERROR ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 51 ] - Please define platform in maven command
+2022-01-13 13:13:40.620 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:13:40.621 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.runners.WebTestRunner : 51 ] - Tear down driver web
+2022-01-13 13:16:32.992 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:16:33.648 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:16:33.654 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 13:16:34.208 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 13:16:34.249 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 13:16:34.250 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:16:38.154 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 13:16:38.299 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.runners.WebTestRunner : 42 ] - setUp driver chrome
+2022-01-13 13:16:44.161 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 104 ] - the driver quit
+2022-01-13 13:16:44.166 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:16:44.167 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.runners.WebTestRunner : 51 ] - Tear down driver chrome
+2022-01-13 13:18:14.788 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:18:15.474 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:18:15.488 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 13:18:15.661 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 13:18:15.688 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 13:18:15.689 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:18:18.226 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 13:18:18.377 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 13:18:24.178 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 104 ] - the driver quit
+2022-01-13 13:18:24.185 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:18:24.185 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver chrome
+2022-01-13 13:18:37.516 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:18:43.988 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:18:43.989 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver null
+2022-01-13 13:19:27.067 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:19:27.799 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:19:27.806 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 13:19:27.961 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 13:19:27.981 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 13:19:27.982 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:19:30.338 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 13:19:30.522 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 13:19:36.321 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 104 ] - the driver quit
+2022-01-13 13:19:36.325 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 13:19:36.325 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver chrome
+2022-01-13 13:23:44.121 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:23:58.505 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:23:58.519 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 13:23:58.726 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 13:23:58.759 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 13:23:58.762 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:24:01.829 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 13:24:01.982 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 13:28:51.215 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 13:28:52.002 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:28:52.012 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 13:28:52.217 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 13:28:52.259 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 13:28:52.262 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 13:28:55.249 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 13:28:55.408 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 14:14:06.377 [ rp-io-9 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1687)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1496)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1394)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:404)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:364)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1488)
+	... 27 common frames omitted
+2022-01-13 14:14:06.380 [ rp-io-9 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1687)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1496)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1394)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:404)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:364)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1488)
+	... 27 common frames omitted
+2022-01-13 14:14:06.381 [ rp-io-9 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [38] ReportPortal Finish test item execution error
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1687)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1496)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1394)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:404)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:364)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1488)
+	... 27 common frames omitted
+2022-01-13 14:14:06.479 [ rp-io-16 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1687)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1496)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1394)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:441)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:412)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:404)
+	at rp.org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:364)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:110)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1488)
+	... 27 common frames omitted
+2022-01-13 14:14:21.088 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 14:14:21.785 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:14:21.795 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 14:14:21.984 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 14:14:22.031 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 14:14:22.033 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:14:25.285 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 14:14:25.436 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 14:17:13.191 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 14:17:13.923 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:17:13.929 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 14:17:14.219 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 14:17:14.264 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 14:17:14.266 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:17:16.864 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 14:17:17.025 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 14:17:39.314 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 104 ] - the driver quit
+2022-01-13 14:17:39.319 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 14:17:39.319 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver chrome
+2022-01-13 14:19:14.031 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-01-13 14:19:14.666 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:19:14.673 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 40 ] - Test platform is: CHROME
+2022-01-13 14:19:14.841 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 97.0.4692.71 (resolved driver for Chrome 97)
+2022-01-13 14:19:14.869 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as /Users/samuel_shen/.cache/selenium/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-01-13 14:19:14.871 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:19:17.859 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 56 ] - the current platform is CHROME
+2022-01-13 14:19:17.998 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 31 ] - setUp driver chrome
+2022-01-13 14:19:23.544 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 30 ] - * Start running scenario: Login github website
+2022-01-13 14:19:23.578 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 38 ] - Navigate to github website
+2022-01-13 14:19:23.578 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 44 ] - Executing scripts for CHROME on LOCAL environment...
+2022-01-13 14:19:23.579 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 96 ] - https://github.com
+2022-01-13 14:19:27.659 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 45 ] - Click signin icon
+2022-01-13 14:19:30.545 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 52 ] - Input email and password
+2022-01-13 14:19:34.700 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 59 ] - Verify signed in page
+2022-01-13 14:19:34.736 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 36 ] - * End scenario: Login github website
+2022-01-13 14:19:39.777 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 30 ] - * Start running scenario: Create new repo
+2022-01-13 14:19:39.843 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 42 ] - Click new repository button
+2022-01-13 14:19:42.277 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 57 ] - Input repo name
+2022-01-13 14:19:44.570 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 69 ] - Input repo description
+2022-01-13 14:19:45.767 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 76 ] - Set repo permission
+2022-01-13 14:19:46.879 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 49 ] - Click create repository button to complete the creation
+2022-01-13 14:19:50.655 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.NewRepoSteps : 83 ] - Verify new repo
+2022-01-13 14:19:50.697 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 36 ] - * End scenario: Create new repo
+2022-01-13 14:19:50.857 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 104 ] - the driver quit
+2022-01-13 14:19:50.863 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 98 ] - the appium service was stopped
+2022-01-13 14:19:50.863 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 40 ] - Tear down driver chrome

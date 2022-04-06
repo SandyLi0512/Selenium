@@ -1,0 +1,661 @@
+2022-04-04 19:46:32.109 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 19:46:33.254 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 19:46:33.271 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 19:46:34.744 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 19:46:34.776 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-04-04 19:46:36.203 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-04 19:46:37.676 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 178 ] - Extracting driver from compressed file chromedriver_win32.zip
+2022-04-04 19:46:37.954 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 19:46:37.956 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 19:46:40.675 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 19:46:40.825 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 19:48:12.174 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 19:48:12.267 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 19:48:12.268 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 19:49:08.681 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 19:49:10.143 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 19:49:10.158 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 19:49:10.668 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 19:49:10.732 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 19:49:10.735 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 19:49:13.186 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 19:49:13.344 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 19:49:15.469 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 19:49:15.476 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 19:49:15.476 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 19:50:34.662 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 19:50:35.983 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 19:50:35.995 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 19:50:36.335 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 19:50:36.381 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 19:50:36.383 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 19:50:38.942 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 19:50:39.095 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 19:50:40.890 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 19:50:40.895 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 19:50:40.895 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 20:18:49.311 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 20:18:50.225 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:18:50.238 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 20:18:50.548 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 20:18:50.581 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 20:18:50.584 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:18:53.164 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 20:18:53.371 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 20:21:03.275 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 20:21:03.352 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 20:21:03.353 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 20:43:41.509 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 20:43:42.199 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:43:42.206 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 20:43:42.424 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 20:43:42.450 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 20:43:42.452 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:43:44.503 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 20:43:44.664 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 20:43:46.369 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 20:43:46.373 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 20:43:46.373 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 20:50:10.666 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 20:50:11.402 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:50:11.409 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 20:50:12.099 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 20:50:12.135 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 20:50:12.137 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:50:14.135 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 20:50:14.351 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 20:50:15.995 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 20:50:15.998 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 20:50:15.999 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 20:51:48.407 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 20:51:49.686 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:51:49.697 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 20:51:50.009 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 20:51:50.041 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 20:51:50.044 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:51:52.222 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 20:51:52.385 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 20:51:53.368 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 20:51:53.368 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 20:51:53.369 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - yandex.com
+2022-04-04 20:51:54.412 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 20:51:54.416 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 20:51:54.416 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:14:34.684 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:14:35.387 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:14:35.393 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:14:35.922 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:14:35.946 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:14:35.947 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:14:38.009 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:14:38.191 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:14:39.048 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:14:39.048 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:14:39.049 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - yandex.com
+2022-04-04 22:14:39.911 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:14:39.915 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:14:39.916 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:16:09.679 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:16:10.506 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:16:10.516 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:16:10.759 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:16:10.784 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:16:10.786 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:16:12.833 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:16:12.975 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:16:13.777 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:16:13.778 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:16:13.779 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - yandex.com
+2022-04-04 22:16:14.616 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:16:14.620 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:16:14.621 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:18:55.926 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:18:57.076 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:18:57.089 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:18:57.481 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:18:57.517 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:18:57.520 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:18:59.625 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:18:59.765 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:20:45.661 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:20:45.662 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:20:45.663 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://yandex.com/
+2022-04-04 22:20:52.826 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:20:54.935 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:20:54.956 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:20:55.354 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:20:55.393 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:20:55.397 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:20:57.894 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:20:58.131 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:20:59.356 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:20:59.357 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:20:59.358 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://yandex.com/
+2022-04-04 22:21:05.479 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:21:05.487 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:21:05.487 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:22:46.775 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:22:47.459 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:22:47.465 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:22:47.645 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:22:47.664 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:22:47.665 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:22:49.973 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:22:50.127 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:22:50.949 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:22:50.950 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:22:50.951 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://yandex.com/
+2022-04-04 22:23:01.488 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:23:01.491 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:23:01.492 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:25:12.798 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:25:13.548 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:25:13.556 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:25:13.739 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:25:13.762 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:25:13.763 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:25:15.563 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:25:15.700 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:25:16.360 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:25:16.361 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:25:16.362 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 22:26:10.297 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:26:10.301 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:26:10.301 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:29:00.271 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:29:01.142 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:29:01.152 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:29:01.332 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:29:01.352 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:29:01.355 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:29:03.090 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:29:03.235 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:29:04.051 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:29:04.051 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:29:04.052 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 22:29:16.258 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:29:16.261 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:29:16.261 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:31:02.571 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:31:03.252 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:31:03.258 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 22:31:03.467 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 22:31:03.495 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 22:31:03.497 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:31:05.253 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 22:31:05.388 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 22:31:06.057 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 21 ] - Navigate to yandex website
+2022-04-04 22:31:06.058 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 22:31:06.059 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 22:31:15.976 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 28 ] - Click signin icon
+2022-04-04 22:31:22.293 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60681}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d540787edeb0572f70944ed2ad6b1e7
+2022-04-04 22:31:53.068 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 22:31:53.072 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:31:53.072 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 22:34:47.927 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:34:48.604 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for FIREFOX on LOCAL environment...
+2022-04-04 22:34:48.612 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: FIREFOX
+2022-04-04 22:34:49.033 [ main ] - [ WARN  ] [ io.github.bonigarcia.wdm.versions.VersionDetector : 121 ] - Error reading version.properties, using local instead
+2022-04-04 22:34:49.039 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2022-04-04 22:34:53.346 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip
+2022-04-04 22:35:31.511 [ main ] - [ WARN  ] [ io.github.bonigarcia.wdm.WebDriverManager : 740 ] - There was an error managing geckodriver (latest version) (Read timed out) ... trying again using latest driver stored in cache
+2022-04-04 22:35:31.513 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2022-04-04 22:35:36.086 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip
+2022-04-04 22:35:57.876 [ main ] - [ ERROR ] [ io.github.bonigarcia.wdm.WebDriverManager : 748 ] - There was an error managing geckodriver (latest version) (Connection reset)
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:249)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:182)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:225)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:600)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:220)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:107)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:181)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:169)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:93)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:128)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:178)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:138)
+	at io.github.bonigarcia.wdm.online.Downloader.downloadAndExtract(Downloader.java:131)
+	at io.github.bonigarcia.wdm.online.Downloader.download(Downloader.java:88)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:630)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:549)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:746)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:555)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:285)
+	at com.epam.bdd.utaf.core.driver.FirefoxDriverFactory.getDriver(FirefoxDriverFactory.java:18)
+	at com.epam.bdd.utaf.core.driver.DriverSingleton.startDriver(DriverSingleton.java:51)
+	at com.epam.bdd.utaf.core.runners.UTAFTestRunner.setUp(UTAFTestRunner.java:28)
+	at com.epam.bdd.utaf.web.runners.WebTestRunner.setUp(WebTestRunner.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 63 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 59 common frames omitted
+2022-04-04 22:35:58.261 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:35:58.262 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver firefox
+2022-04-04 22:36:59.127 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 22:36:59.895 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for FIREFOX on LOCAL environment...
+2022-04-04 22:36:59.904 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: FIREFOX
+2022-04-04 22:37:00.360 [ main ] - [ WARN  ] [ io.github.bonigarcia.wdm.versions.VersionDetector : 121 ] - Error reading version.properties, using local instead
+2022-04-04 22:37:00.362 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2022-04-04 22:37:01.075 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip
+2022-04-04 22:37:22.082 [ main ] - [ WARN  ] [ io.github.bonigarcia.wdm.WebDriverManager : 740 ] - There was an error managing geckodriver (latest version) (Connect to https://github.com:443 [github.com/20.205.243.166] failed: Connection timed out: no further information) ... trying again using latest driver stored in cache
+2022-04-04 22:37:22.085 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://api.github.com/repos/mozilla/geckodriver/releases to seek geckodriver
+2022-04-04 22:37:27.802 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip
+2022-04-04 22:37:47.774 [ main ] - [ ERROR ] [ io.github.bonigarcia.wdm.WebDriverManager : 748 ] - There was an error managing geckodriver (latest version) (Connection reset)
+javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:241)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:53)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:249)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:182)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:225)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:600)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:220)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:107)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:181)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:169)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:93)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:128)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:178)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89)
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:138)
+	at io.github.bonigarcia.wdm.online.Downloader.downloadAndExtract(Downloader.java:131)
+	at io.github.bonigarcia.wdm.online.Downloader.download(Downloader.java:88)
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:630)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:549)
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:746)
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:555)
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:285)
+	at com.epam.bdd.utaf.core.driver.FirefoxDriverFactory.getDriver(FirefoxDriverFactory.java:18)
+	at com.epam.bdd.utaf.core.driver.DriverSingleton.startDriver(DriverSingleton.java:51)
+	at com.epam.bdd.utaf.core.runners.UTAFTestRunner.setUp(UTAFTestRunner.java:28)
+	at com.epam.bdd.utaf.web.runners.WebTestRunner.setUp(WebTestRunner.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 63 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 59 common frames omitted
+2022-04-04 22:37:48.252 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 22:37:48.253 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver firefox
+2022-04-04 23:04:02.258 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:04:02.945 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:04:02.952 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:04:03.151 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:04:03.178 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:04:03.179 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:04:05.050 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:04:05.214 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:04:06.206 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:04:06.207 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:04:06.209 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:04:17.714 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:04:47.732 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$556/0x00000008010456c0@6bfc5296 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-04 23:05:11.175 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=button2__text
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+2022-04-04 23:05:11.990 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:05:11.994 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:05:11.995 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:05:31.176 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:05:32.194 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:05:32.205 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:05:32.539 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:05:32.572 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:05:32.574 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:05:34.696 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:05:34.854 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:05:35.780 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:05:35.781 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:05:35.782 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:05:43.296 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:06:13.315 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$556/0x00000008010456b8@3a720ae3 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-04 23:06:43.340 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"button2__text"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 00c9c44e7d86c526eeb6a9f16b466adf
+*** Element info: {Using=xpath, value=button2__text}
+2022-04-04 23:07:14.153 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:07:14.156 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:07:14.156 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:10:05.282 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:10:06.296 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:10:06.311 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:10:06.573 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:10:06.603 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:10:06.606 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:10:08.850 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:10:09.004 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:10:09.968 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:10:09.969 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:10:09.970 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:10:18.156 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:10:19.274 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span data-lego="react" class="button2__text">...</span> is not clickable at point (493, 280). Other element would receive the click: <a data-lego="react" aria-pressed="false" tabindex="0" aria-disabled="false" href="https://passport.yandex.com/registration/mail?from=mail&amp;require_hint=1&amp;origin=hostroot_homer_reg_com&amp;retpath=https%3A%2F%2Fmail.yandex.com%2F&amp;backpath=https%3A%2F%2Fmail.yandex.com%3Fnoretpath%3D1" class="control button2 button2_view_classic button2_size_mail-big button2_theme_mail-action button2_type_link HeadBanner-Button with-shadow">...</a>
+  (Session info: chrome=100.0.4896.60)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 915894599b16f305a93254fdf452edd5
+2022-04-04 23:10:54.875 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:10:54.878 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:10:54.878 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:11:53.540 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:11:54.263 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:11:54.268 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:11:54.493 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:11:54.515 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:11:54.516 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:11:56.559 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:11:56.705 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:11:57.530 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:11:57.531 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:11:57.531 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:12:06.240 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:12:36.286 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$556/0x00000008010456c0@55a2f08b (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-04 23:13:06.306 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".Log\ in"}
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62557}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9813cf83762d4317854b1d409c01dc1
+*** Element info: {Using=class name, value=Log in}
+2022-04-04 23:13:37.134 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:13:37.138 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:13:37.138 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:32:16.016 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:32:16.701 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:32:16.708 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:32:17.241 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:32:17.260 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:32:17.263 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:32:19.347 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:32:19.506 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:32:20.380 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:32:20.380 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:32:20.381 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:32:25.195 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:32:55.279 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$556/0x0000000801046360@1ced1d14 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-04 23:32:55.286 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[contains(@href,'auth?from=mail)] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[contains(@href,'auth?from=mail)]' is not a valid XPath expression.
+  (Session info: chrome=100.0.4896.60)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.60, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14856394eb3073e05777e45120910b13
+*** Element info: {Using=xpath, value=//div[contains(@href,'auth?from=mail)]}
+2022-04-04 23:32:56.059 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:32:56.063 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:32:56.063 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:34:00.078 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:34:00.800 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:34:00.807 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:34:00.990 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:34:01.009 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:34:01.011 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:34:02.797 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:34:02.933 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:34:03.769 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:34:03.769 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:34:03.770 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:35:27.931 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:35:27.935 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:35:27.935 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:35:38.692 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:35:39.475 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:35:39.487 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:35:39.739 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:35:39.768 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:35:39.770 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:35:41.772 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:35:41.924 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:35:42.888 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:35:42.889 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:35:42.890 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:35:48.998 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:35:55.639 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:35:55.643 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:35:55.643 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:38:58.882 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:38:59.690 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:38:59.702 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:38:59.943 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:38:59.972 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:38:59.975 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:39:02.075 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:39:02.279 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:39:03.149 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:39:03.149 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:39:03.150 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:39:10.888 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:39:18.518 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 41 ] - Input email first
+2022-04-04 23:39:18.645 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (0a43fdb838dc2aa6c3d5e92e66d2fa13)] -> id: passp-field-login]
+2022-04-04 23:39:18.931 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 55 ] - Verify signed in page
+2022-04-04 23:39:49.729 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:39:49.732 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:39:49.733 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:42:29.652 [ pool-3-thread-1 ] - [ ERROR ] [ c.e.reportportal.service.analytics.GoogleAnalytics : 123 ] - Remote host terminated the handshake
+2022-04-04 23:44:51.786 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:44:52.814 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:44:52.825 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:44:53.088 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:44:53.118 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:44:53.121 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:44:55.413 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:44:55.570 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:44:56.410 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-04 23:44:56.411 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:44:56.411 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:45:01.236 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 33 ] - Click signin icon
+2022-04-04 23:45:03.939 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:45:03.944 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:45:03.944 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:46:11.857 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:46:12.927 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:46:12.937 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:46:13.214 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:46:13.240 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:46:13.243 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:46:15.483 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:46:15.634 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:46:16.494 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:46:16.495 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:46:16.495 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:46:21.872 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 41 ] - Input email first
+2022-04-04 23:47:22.780 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:47:22.784 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:47:22.785 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:47:52.144 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:47:53.093 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:47:53.104 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:47:53.351 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:47:53.386 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:47:53.388 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:47:55.350 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:47:55.489 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:47:56.271 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:47:56.271 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:47:56.272 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:48:05.819 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 41 ] - Input email first
+2022-04-04 23:49:06.744 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:49:06.748 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:49:06.748 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:49:22.131 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:49:23.029 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:49:23.038 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:49:23.281 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:49:23.312 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:49:23.315 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:49:25.260 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:49:25.414 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:49:26.204 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 27 ] - Navigate to yandex website
+2022-04-04 23:49:26.205 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:49:26.205 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:49:31.850 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 34 ] - Click signin icon
+2022-04-04 23:49:37.602 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 41 ] - Input email first
+2022-04-04 23:49:37.725 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (440422b11c87903c96bfc34178bb9c3e)] -> id: passp-field-login]
+2022-04-04 23:49:38.746 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 49 ] - Verify signed in page
+2022-04-04 23:50:09.634 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:50:09.642 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:50:09.643 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:50:38.175 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:50:39.116 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:50:39.126 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:50:39.356 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:50:39.386 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:50:39.387 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:50:41.593 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:50:41.735 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:50:42.582 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-04 23:50:42.583 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:50:42.583 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:50:52.105 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 33 ] - Click signin icon
+2022-04-04 23:50:58.253 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 40 ] - Input email first
+2022-04-04 23:50:58.379 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (7416aff3f6d950a768ef67b55c79b56d)] -> id: passp-field-login]
+2022-04-04 23:50:59.431 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 48 ] - Verify signed in page
+2022-04-04 23:51:30.222 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:51:30.225 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:51:30.226 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-04 23:55:46.169 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-04 23:55:46.865 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:55:46.871 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-04 23:55:47.078 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-04 23:55:47.104 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-04 23:55:47.106 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:55:48.833 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-04 23:55:48.967 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-04 23:55:49.626 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-04 23:55:49.627 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-04 23:55:49.628 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-04 23:55:57.287 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 33 ] - Click signin icon
+2022-04-04 23:56:02.339 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 40 ] - Input email first
+2022-04-04 23:56:02.457 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (b2b1a54b1338ed7bdc148d9738a1470a)] -> id: passp-field-login]
+2022-04-04 23:56:03.488 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 48 ] - Verify signed in page
+2022-04-04 23:56:41.359 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-04 23:56:41.364 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-04 23:56:41.365 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome

@@ -1,0 +1,16 @@
+2022-03-25 23:00:04.662 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-03-25 23:00:05.399 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-03-25 23:00:05.406 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-03-25 23:00:07.129 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 99.0.4844.51 (resolved driver for Chrome 99)
+2022-03-25 23:00:07.161 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 879 ] - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-03-25 23:00:08.180 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 124 ] - Downloading https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-25 23:01:03.172 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.online.Downloader : 178 ] - Extracting driver from compressed file chromedriver_win32.zip
+2022-03-25 23:01:03.511 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe
+2022-03-25 23:01:03.513 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-03-25 23:01:06.453 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-03-25 23:01:06.600 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-03-25 23:01:07.992 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.WebHooks : 30 ] - * Start running scenario: Login github website
+2022-03-25 23:01:08.082 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 35 ] - Navigate to github website
+2022-03-25 23:01:08.083 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-03-25 23:01:08.084 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://github.com
+2022-03-25 23:01:09.335 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.github.SignInSteps : 42 ] - Click signin icon

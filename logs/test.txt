@@ -1,0 +1,1171 @@
+2022-04-06 00:00:16.638 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801045428@515555b (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:00:46.674 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'ns-view-id-114')]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b9fb498e59e9e9f83f662b7886f5bf16
+*** Element info: {Using=xpath, value=//a[contains(@class,'ns-view-id-114')]}
+2022-04-06 00:01:17.400 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 00:01:17.403 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 00:01:17.404 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-06 00:07:03.905 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:07:04.901 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:07:04.916 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:07:05.201 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:07:05.242 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:07:05.244 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:07:07.621 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:07:07.775 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:07:08.706 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:07:08.707 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:07:08.708 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:07:14.752 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:07:18.115 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:07:18.236 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (29e0ac7feb2bc6c0c180a1abe689efbd)] -> id: passp-field-login]
+2022-04-06 00:07:19.276 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:07:43.726 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:07:48.949 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:07:49.327 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:07:49.450 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:07:49.632 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:07:49.742 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:07:50.023 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 29 ] - get the email title in Draft
+2022-04-06 00:07:50.046 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 36 ] - click the send button
+2022-04-06 00:07:50.261 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 42 ] - check the email deleted from draft
+2022-04-06 00:07:50.546 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:08:20.776 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@64864875 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:09:04.967 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:09:06.008 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:09:06.021 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:09:06.272 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:09:06.301 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:09:06.303 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:09:08.310 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:09:08.458 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:09:09.240 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:09:09.240 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:09:09.241 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:09:14.522 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:09:18.132 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:09:18.240 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (01d30399d6a159f1500a9c1b5b8a7bd6)] -> id: passp-field-login]
+2022-04-06 00:09:19.292 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:09:50.583 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:10:11.344 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:10:12.197 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:10:12.326 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:10:12.521 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:10:12.611 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:10:12.909 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 29 ] - get the email title in Draft
+2022-04-06 00:10:12.930 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 36 ] - click the send button
+2022-04-06 00:10:13.148 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 42 ] - check the email deleted from draft
+2022-04-06 00:10:13.446 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:10:43.663 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@5c00de0d (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:11:13.675 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'ns-view-system-folders ns-view-id-113 js-folders mail-NestedList mail-SystemFolderList ns-view-container-desc']/a[contains(@class,'ns-view-id-114')]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01d30399d6a159f1500a9c1b5b8a7bd6
+*** Element info: {Using=xpath, value=//div[@class = 'ns-view-system-folders ns-view-id-113 js-folders mail-NestedList mail-SystemFolderList ns-view-container-desc']/a[contains(@class,'ns-view-id-114')]}
+2022-04-06 00:11:44.449 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 00:11:44.453 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 00:11:44.453 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-06 00:18:33.817 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:18:34.564 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:18:34.572 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:18:34.771 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:18:34.791 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:18:34.793 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:18:36.621 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:18:36.770 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:18:37.640 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:18:37.641 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:18:37.642 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:18:49.862 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:18:53.736 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:18:53.837 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (fdb9bb5d3d9d6539bc563fa888dc701e)] -> id: passp-field-login]
+2022-04-06 00:18:55.397 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:19:32.718 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:19:38.145 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:19:38.541 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:19:38.666 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:19:38.839 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:19:38.930 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:20:08.956 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801045508@46059b73 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:20:39.007 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'ns-view-system-folder ns-view-id-117')]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdb9bb5d3d9d6539bc563fa888dc701e
+*** Element info: {Using=xpath, value=//a[contains(@class,'ns-view-system-folder ns-view-id-117')]}
+2022-04-06 00:21:09.078 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:23:04.291 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:23:05.159 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:23:05.171 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:23:05.408 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:23:05.438 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:23:05.440 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:23:07.551 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:23:07.794 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:23:08.567 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:23:08.568 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:23:08.569 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:23:14.561 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:23:20.834 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:23:20.924 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (0b30e499661c8748b041de8f753eab6d)] -> id: passp-field-login]
+2022-04-06 00:23:21.895 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:23:55.529 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:24:01.048 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:24:02.819 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:24:02.950 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:24:03.151 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:24:03.238 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:24:33.289 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@3956e933 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:25:03.296 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ns\-view\-system\-folder\ ns\-view\-id\-117\ mail\-NestedList\-Item\ mail\-NestedList\-Item_level_1\ toggles\-Arrow\-on\-not\-folded\ js\-folders\-item\ js\-valid\-drag\-target\ fid\-6\ js\-fid\-6\ mail\-NestedList\-Item_withToggler\ mail\-NestedList\-Item_empty\ mail\-NestedList\-Item_current"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b30e499661c8748b041de8f753eab6d
+*** Element info: {Using=class name, value=ns-view-system-folder ns-view-id-117 mail-NestedList-Item mail-NestedList-Item_level_1 toggles-Arrow-on-not-folded js-folders-item js-valid-drag-target fid-6 js-fid-6 mail-NestedList-Item_withToggler mail-NestedList-Item_empty mail-NestedList-Item_current}
+2022-04-06 00:25:33.359 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:26:03.570 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@173602c0 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:26:33.615 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'ns-view-system-folders ns-view-id-113 js-folders mail-NestedList mail-SystemFolderList ns-view-container-desc']/a[contains(@class,'ns-view-id-114')]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b30e499661c8748b041de8f753eab6d
+*** Element info: {Using=xpath, value=//div[@class = 'ns-view-system-folders ns-view-id-113 js-folders mail-NestedList mail-SystemFolderList ns-view-container-desc']/a[contains(@class,'ns-view-id-114')]}
+2022-04-06 00:27:04.396 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 00:27:04.400 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 00:27:04.400 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-06 00:30:23.240 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:30:23.919 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:30:23.925 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:30:24.102 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:30:24.130 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:30:24.132 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:30:25.840 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:30:25.985 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:30:26.816 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:30:26.817 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:30:26.818 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:30:34.800 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:30:41.233 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:30:41.326 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (d7a291c5b0a80fa651da9f701e42dc1f)] -> id: passp-field-login]
+2022-04-06 00:30:43.143 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:31:29.536 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:31:35.799 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:31:36.220 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:31:36.346 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:31:36.518 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:31:36.603 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:31:36.883 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 29 ] - get the email title in Draft
+2022-04-06 00:31:36.908 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 36 ] - click the send button
+2022-04-06 00:31:37.124 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 42 ] - check the email deleted from draft
+2022-04-06 00:31:37.405 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:32:07.635 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x000000080103d428@64864875 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:32:37.651 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'ns-view-system-folders ns-view-id-113 js-folders mail-NestedList mail-SystemFolderList ns-view-container-desc']/a[contains(@class,'ns-view-id-114')]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7a291c5b0a80fa651da9f701e42dc1f
+*** Element info: {Using=xpath, value=//div[@class = 'ns-view-system-folders ns-view-id-113 js-folders mail-NestedList mail-SystemFolderList ns-view-container-desc']/a[contains(@class,'ns-view-id-114')]}
+2022-04-06 00:33:08.592 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 00:33:08.596 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 00:33:08.596 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-06 00:37:43.469 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:37:44.175 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:37:44.182 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:37:44.382 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:37:44.405 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:37:44.407 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:37:46.488 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:37:46.643 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:37:47.505 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:37:47.506 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:37:47.506 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:37:52.035 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:37:55.988 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:37:56.105 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (baa5c9646160c365f500d9097fd2a81a)] -> id: passp-field-login]
+2022-04-06 00:37:57.172 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:38:28.212 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:38:41.273 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:39:11.292 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801045508@798d8247 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:39:16.011 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:39:16.156 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:39:16.337 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:39:16.436 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:39:46.462 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801045508@407ff25f (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:40:16.490 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title = 'Drafts']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: baa5c9646160c365f500d9097fd2a81a
+*** Element info: {Using=xpath, value=//a[@title = 'Drafts']}
+2022-04-06 00:40:46.607 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:40:46.908 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 28 ] - check the email title in sent box
+2022-04-06 00:40:46.937 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 33 ] - click logout button
+2022-04-06 00:40:48.009 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 00:40:48.012 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 00:40:48.012 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-06 00:41:17.136 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:41:17.836 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:41:17.844 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:41:18.010 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:41:18.031 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:41:18.033 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:41:19.825 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:41:19.961 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:41:20.568 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:41:20.569 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:41:20.569 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:41:30.961 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:41:35.786 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:41:35.919 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (99ce0ec5534fcff5c7c58dcdfe506882)] -> id: passp-field-login]
+2022-04-06 00:41:37.031 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:42:30.037 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:42:35.838 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 32 ] - Input email address
+2022-04-06 00:42:36.225 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 38 ] - Input email subject
+2022-04-06 00:42:36.369 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 43 ] - Input email text
+2022-04-06 00:42:36.552 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - I click close button
+2022-04-06 00:42:36.638 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:43:06.702 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801045428@28901fe7 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:43:36.742 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title = 'Drafts']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 99ce0ec5534fcff5c7c58dcdfe506882
+*** Element info: {Using=xpath, value=//a[@title = 'Drafts']}
+2022-04-06 00:43:45.803 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 29 ] - get the email title in Draft
+2022-04-06 00:44:15.870 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:44:16.182 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 28 ] - check the email title in sent box
+2022-04-06 00:44:41.439 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 00:44:42.569 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:44:42.578 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 00:44:42.864 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 00:44:42.898 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 00:44:42.900 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:44:45.166 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 00:44:45.327 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 00:44:46.398 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 00:44:46.399 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 00:44:46.399 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 00:44:52.577 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 00:44:56.803 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 00:44:56.903 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (33453004af710af5575966756c7fa072)] -> id: passp-field-login]
+2022-04-06 00:44:58.448 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 00:45:19.716 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 00:45:50.036 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@16bbb59c (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:45:50.039 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33453004af710af5575966756c7fa072
+*** Element info: {Using=class name, value=mail-ComposeButton-Text}
+2022-04-06 00:45:50.059 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 00:46:20.262 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@6592a73b (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:46:20.265 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33453004af710af5575966756c7fa072
+*** Element info: {Using=xpath, value=//a[@title = 'Drafts']}
+2022-04-06 00:46:20.282 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 00:46:22.698 [ rp-io-26 ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 51 ] - [53] ReportPortal execution error
+javax.net.ssl.SSLException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at rp.org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at rp.org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at rp.org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 32 common frames omitted
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 28 common frames omitted
+2022-04-06 00:46:22.698 [ rp-io-26 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [53] ReportPortal Finish test item execution error
+javax.net.ssl.SSLException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at rp.org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at rp.org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at rp.org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 32 common frames omitted
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 28 common frames omitted
+2022-04-06 00:46:31.308 [ rp-io-32 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+java.net.UnknownHostException: No such host is known (reportportal.epam.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:46:50.687 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x00000008010454d0@41030c21 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 00:46:50.691 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33453004af710af5575966756c7fa072
+*** Element info: {Using=xpath, value=//a[@title = 'Sent']}
+2022-04-06 00:46:50.698 [ main ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 51 ] - [1] ReportPortal execution error
+java.net.UnknownHostException: No such host is known (reportportal.epam.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:46:50.699 [ rp-io-33 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 76 ] - Logging context completed with error 
+java.net.UnknownHostException: No such host is known (reportportal.epam.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:46:50.699 [ rp-io-34 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [61] ReportPortal Finish test item execution error
+java.net.UnknownHostException: No such host is known (reportportal.epam.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:46:51.273 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 00:46:51.276 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 00:46:51.277 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
+2022-04-06 00:46:54.493 [ rp-io-28 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+javax.net.ssl.SSLException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at rp.org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at rp.org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at rp.org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 32 common frames omitted
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 28 common frames omitted
+2022-04-06 00:46:54.494 [ rp-io-28 ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 51 ] - [55] ReportPortal execution error
+javax.net.ssl.SSLException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at rp.org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at rp.org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at rp.org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 32 common frames omitted
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 28 common frames omitted
+2022-04-06 00:46:54.494 [ rp-io-28 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [55] ReportPortal Finish test item execution error
+javax.net.ssl.SSLException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at rp.org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at rp.org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at rp.org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 32 common frames omitted
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 28 common frames omitted
+2022-04-06 00:46:54.495 [ rp-io-48 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 76 ] - Logging context completed with error 
+javax.net.ssl.SSLException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1680)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1054)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at rp.org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at rp.org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at rp.org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at rp.org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at rp.org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at rp.org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: Connection reset by peer
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1051)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 32 common frames omitted
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:981)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1434)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1038)
+	... 28 common frames omitted
+2022-04-06 00:47:01.729 [ rp-io-42 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:886)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.729 [ rp-io-36 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 50 ] - Start test item completed with error 
+java.net.UnknownHostException: No such host is known (reportportal.epam.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.729 [ rp-io-42 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [69] ReportPortal Finish test item execution error
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:886)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.729 [ rp-io-36 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [63] ReportPortal Finish test item execution error
+java.net.UnknownHostException: No such host is known (reportportal.epam.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.731 [ rp-io-49 ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 51 ] - [79] ReportPortal execution error
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.731 [ rp-io-49 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [79] ReportPortal Finish test item execution error
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.732 [ rp-io-50 ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 51 ] - [80] ReportPortal execution error
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.732 [ rp-io-50 ] - [ ERROR ] [ com.epam.reportportal.utils.SubscriptionUtils : 97 ] - [80] ReportPortal Finish test item execution error
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.735 [ rp-io-51 ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 51 ] - [81] ReportPortal execution error
+java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-06 00:47:01.736 [ main ] - [ ERROR ] [ com.epam.reportportal.service.Launch : 221 ] - Unable to finish launch in ReportPortal
+java.lang.RuntimeException: java.net.UnknownHostException: reportportal.epam.com
+	at io.reactivex.internal.util.ExceptionHelper.wrapOrThrow(ExceptionHelper.java:46)
+	at io.reactivex.internal.observers.BlockingMultiObserver.blockingGet(BlockingMultiObserver.java:93)
+	at io.reactivex.Maybe.blockingGet(Maybe.java:2321)
+	at com.epam.reportportal.service.LaunchImpl.lambda$finish$7(LaunchImpl.java:214)
+	at io.reactivex.internal.operators.maybe.MaybeMap$MapMaybeObserver.onSuccess(MaybeMap.java:82)
+	at io.reactivex.internal.operators.maybe.MaybeCache.subscribeActual(MaybeCache.java:66)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeMap.subscribeActual(MaybeMap.java:40)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeDelayWithCompletable$OtherObserver.onComplete(MaybeDelayWithCompletable.java:70)
+	at io.reactivex.internal.operators.completable.CompletableConcatIterable$ConcatInnerObserver.next(CompletableConcatIterable.java:105)
+	at io.reactivex.internal.operators.completable.CompletableConcatIterable$ConcatInnerObserver.onComplete(CompletableConcatIterable.java:77)
+	at io.reactivex.internal.operators.completable.CompletableOnErrorComplete$OnError.onError(CompletableOnErrorComplete.java:64)
+	at io.reactivex.internal.operators.completable.CompletableCache.onError(CompletableCache.java:79)
+	at io.reactivex.internal.operators.maybe.MaybeIgnoreElementCompletable$IgnoreMaybeObserver.onError(MaybeIgnoreElementCompletable.java:73)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onErrorInner(MaybePeek.java:147)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onError(MaybePeek.java:134)
+	at io.reactivex.internal.operators.maybe.MaybeDelayWithCompletable$DelayWithMainObserver.onError(MaybeDelayWithCompletable.java:107)
+	at io.reactivex.internal.operators.maybe.MaybeCache.onError(MaybeCache.java:103)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver$InnerObserver.onError(MaybeFlatten.java:124)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver$InnerObserver.onError(MaybeFlatten.java:124)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onErrorInner(MaybePeek.java:147)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onError(MaybePeek.java:134)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onErrorInner(MaybePeek.java:147)
+	at io.reactivex.internal.operators.maybe.MaybePeek$MaybePeekObserver.onError(MaybePeek.java:134)
+	at io.reactivex.internal.operators.flowable.FlowableSingleMaybe$SingleElementSubscriber.onError(FlowableSingleMaybe.java:89)
+	at io.reactivex.internal.operators.flowable.FlowableRetryPredicate$RetrySubscriber.onError(FlowableRetryPredicate.java:95)
+	at io.reactivex.internal.operators.maybe.MaybeToFlowable$MaybeToFlowableSubscriber.onError(MaybeToFlowable.java:75)
+	at io.reactivex.internal.operators.maybe.MaybeFlatten$FlatMapMaybeObserver.onError(MaybeFlatten.java:102)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeOnMaybeObserver.onError(MaybeSubscribeOn.java:96)
+	at io.reactivex.internal.operators.maybe.MaybeCreate$Emitter.tryOnError(MaybeCreate.java:100)
+	at io.reactivex.internal.operators.maybe.MaybeCreate$Emitter.onError(MaybeCreate.java:86)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:547)
+	at io.reactivex.internal.operators.maybe.MaybeCreate.subscribeActual(MaybeCreate.java:45)
+	at io.reactivex.Maybe.subscribe(Maybe.java:4290)
+	at io.reactivex.internal.operators.maybe.MaybeSubscribeOn$SubscribeTask.run(MaybeSubscribeOn.java:54)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:38)
+	at io.reactivex.internal.schedulers.ScheduledDirectTask.call(ScheduledDirectTask.java:26)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.net.UnknownHostException: reportportal.epam.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at rp.org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at rp.org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at rp.org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at rp.org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at rp.org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at rp.org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at rp.org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at rp.org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at rp.org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at rp.org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.epam.reportportal.restendpoint.http.HttpClientRestEndpoint$1.subscribe(HttpClientRestEndpoint.java:502)
+	... 9 common frames omitted
+2022-04-06 00:47:12.783 [ pool-3-thread-1 ] - [ ERROR ] [ c.e.reportportal.service.analytics.GoogleAnalytics : 123 ] - No such host is known (www.google-analytics.com)
+2022-04-06 10:29:00.368 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 10:29:02.104 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 10:29:02.120 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 10:29:03.073 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 10:29:03.115 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 10:29:03.117 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 10:29:05.241 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 10:29:05.406 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 10:29:06.496 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 10:29:06.497 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 10:29:06.498 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 10:29:10.864 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 10:29:13.726 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 10:29:13.880 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (bc9c4b2d421e5d92f1d0d900a1442588)] -> id: passp-field-login]
+2022-04-06 10:29:15.061 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 10:29:45.143 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 10:30:15.506 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801046148@292b7a02 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 10:30:15.509 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bc9c4b2d421e5d92f1d0d900a1442588
+*** Element info: {Using=class name, value=mail-ComposeButton-Text}
+2022-04-06 10:30:15.528 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 10:36:21.686 [ main ] - [ INFO  ] [ com.epam.reportportal.service.Launch : 123 ] - Rerun: false
+2022-04-06 10:36:22.378 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 10:36:22.393 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 38 ] - Test platform is: CHROME
+2022-04-06 10:36:22.666 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 587 ] - Using chromedriver 100.0.4896.60 (resolved driver for Chrome 100)
+2022-04-06 10:36:22.692 [ main ] - [ INFO  ] [ io.github.bonigarcia.wdm.WebDriverManager : 639 ] - Exporting webdriver.chrome.driver as C:\Users\sandy_li\.cache\selenium\chromedriver\win32\100.0.4896.60\chromedriver.exe
+2022-04-06 10:36:22.694 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 10:36:24.572 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 52 ] - the current platform is CHROME
+2022-04-06 10:36:24.716 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 29 ] - setUp driver chrome
+2022-04-06 10:36:25.673 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 26 ] - Navigate to yandex website
+2022-04-06 10:36:25.674 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.PropertiesReader : 42 ] - Executing scripts for CHROME on LOCAL environment...
+2022-04-06 10:36:25.675 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 44 ] - https://mail.yandex.com/
+2022-04-06 10:36:30.074 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 33 ] - Click signin icon
+2022-04-06 10:36:34.222 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 40 ] - Input email first
+2022-04-06 10:36:34.326 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.utils.Utils : 128 ] - Element is visible in 30 seconds on Login Page | [[ChromeDriver: chrome on WINDOWS (650eacf5e2cd29bf124b73a9d3acf5ba)] -> id: passp-field-login]
+2022-04-06 10:36:35.348 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 48 ] - Verify signed in page
+2022-04-06 10:37:05.496 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SignInSteps : 25 ] - click Compose button
+2022-04-06 10:37:35.993 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801044f40@3f119b55 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 10:37:35.996 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 650eacf5e2cd29bf124b73a9d3acf5ba
+*** Element info: {Using=class name, value=mail-ComposeButton-Text}
+2022-04-06 10:37:36.017 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.DraftSteps : 22 ] - click Draft link
+2022-04-06 10:38:06.319 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801044f40@704ddfad (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 10:38:06.322 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 650eacf5e2cd29bf124b73a9d3acf5ba
+*** Element info: {Using=xpath, value=//a[@title = 'Drafts']}
+2022-04-06 10:38:06.344 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.web.steps.wangyi.SendEmailSteps : 22 ] - check the sent email in inbox
+2022-04-06 10:38:36.911 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 70 ] - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.epam.bdd.utaf.core.base.UTAFBasePage$$Lambda$555/0x0000000801044f40@188500e9 (tried for 30 second(s) with 500 milliseconds interval)
+2022-04-06 10:38:36.914 [ main ] - [ WARN  ] [ com.epam.bdd.utaf.core.base.WebBasePage : 79 ] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPCNSZUW1097', ip: '192.168.2.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\sandy_li\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 650eacf5e2cd29bf124b73a9d3acf5ba
+*** Element info: {Using=xpath, value=//a[@title = 'Sent']}
+2022-04-06 10:38:37.498 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 100 ] - the driver quit
+2022-04-06 10:38:37.501 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.driver.DriverSingleton : 93 ] - the appium service was stopped
+2022-04-06 10:38:37.502 [ main ] - [ INFO  ] [ com.epam.bdd.utaf.core.runners.UTAFTestRunner : 37 ] - Tear down driver chrome
